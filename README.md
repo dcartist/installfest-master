@@ -836,13 +836,7 @@ git config --global core.editor 'subl --wait'
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 )
 
-# 4/5
 
-$ curl -sSL https://raw.git.generalassemb.ly/DC-WDI/installfest/master/gitignore-global--template -o ~/.gitignore-global
-
-# 5/5
-
-$ git config --global core.excludesfile ~/.gitignore-global
 ```
 
 ### Confirm Git Config
@@ -878,12 +872,6 @@ Make sure you update your profile with:
 - A recognizable profile picture
 - An e-mail address
 
-## Register for GitHub Enterprise
-
-Go to https://git.generalassemb.ly/ and create an account.
-
-You should use the same name, username, profile image, and email you have used
-before in creating your normal GitHub account.
 
 ## Add GitHub/Enterprise SSH Keys
 
